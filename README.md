@@ -1,18 +1,25 @@
 = Objective = 
 
-I began this project to monitor connexions created by Web browsing. I wanted a simple-as-possible solution to 
+To monitor connexions created by Web browsing. I wanted a simple-as-possible solution to 
 run in a Linux terminal so I could copy/paste the IP addresses and research the infrastructure.
 
 I wanted a maintainable solution that I could extend easily. For better or for worse, *this is all shell programming*. (^;
 
-= Features =
+= How To Use =
 
-I gradually added other monitoring features, such as network activity, CPU core usage, and data about process affinity. I use a Raspberry Pi and I find this data interesting.
+Save the Bash file to disk, run the file in a terminal.
 
 I run zsystat in a _foot_ terminal in Wayland. The _foot_ terminal makes it possible to reduce the font size 
 of one terminal window without affecting the font size in other _foot_ windows. 
 
 *Conky* is a much prettier project but zsystat gives me the functionality that I want. 
+
+= Features =
+
+* show IP addresses for cennexions being created (can copy using mouse)
+* network activity (transmit and receive)
+* CPU core usage and process affinity
+* RAM and swap
 
 = Screenshots =
 
