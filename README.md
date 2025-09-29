@@ -5,7 +5,7 @@ run in a Linux terminal so I could copy/paste the IP addresses and research the 
 
 I wanted a solution that I could change and extend easily. For better or for worse, *this is all shell programming*. (^;
 
-## =How To Use =
+## = How To Use =
 
 Save the Bash file to disk. In a terminal, apply chmod to give permission to execute. Run the Bash script.
 
